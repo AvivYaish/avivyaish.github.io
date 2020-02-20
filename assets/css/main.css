@@ -2554,11 +2554,11 @@ input, select, textarea {
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: 0 0 0.1em 0;
 		}
 
 		.work-item h3 {
@@ -2569,7 +2569,8 @@ input, select, textarea {
 		.work-item p {
 			font-size: 0.8em;
 			line-height: 1.5em;
-			margin: 0;
+			border-bottom: solid 2px #efefef;
+			margin: 0 0 0 0;
 		}
 
 /* Header */
